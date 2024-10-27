@@ -13,12 +13,12 @@ namespace Tyuiu.KomarovaMV.Sprint4.Task7.V20.Lib
                     result[i,j]=int.Parse(value.Substring(i*m+j,1));
                 }
             }
-            int sum = 0;
+            int sum = 1;
             for (int i = 0;i < n; i++)
             {
                 for (int j = 0;j < m; j++)
                 {
-                    if (result[i, j] % 2 == 0) { sum += result[i, j]; }
+                    if (result[i, j] % 2 == 0) { sum *= result[i, j]; }
                 }
             }
             return sum;

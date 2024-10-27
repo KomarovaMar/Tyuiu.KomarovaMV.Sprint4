@@ -8,7 +8,7 @@ namespace Tyuiu.KomarovaMV.Sprint4.Task7.V20.Test
         public void TestMethod1()
         {
             DataService ds= new DataService();
-            int res = 30;
+            int res = 6144;
             string x = "357951248632587";
             int n = 5;
             int m = 3;
